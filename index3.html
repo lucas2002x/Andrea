@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Preguntas</title>
+  <link rel="stylesheet" href="estilos3.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Preguntas</h1>
+    <div id="question-container" class="question-container">
+      <p id="question-text">Pregunta 1</p>
+      <button class="answer-button" onclick="checkAnswer(1)">Opción 1</button>
+      <button class="answer-button" onclick="checkAnswer(2)">Opción 2</button>
+      <button class="answer-button" onclick="checkAnswer(3)">Opción 3</button>
+      <button class="answer-button" onclick="checkAnswer(4)">Opción 4</button>
+    </div>
+    <p id="feedback"></p>
+    <div id="result"></div>
+  </div>
+  <script src="js3.js"></script>
+</body>
+</html>
